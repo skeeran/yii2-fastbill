@@ -10,4 +10,4 @@ php composer.phar require skeeran/fastbill "*"
 ```
 
 
-This extenion is in under development please wait
+This extenion is under development
