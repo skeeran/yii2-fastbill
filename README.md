@@ -2,8 +2,8 @@ Yii2 Fastbill
 ========
 This is a Library communicate using PHP with Fastbill API
 
-<a href="http://www.fastbill.com">Fastbill</a> (Digital invoicing for services and products)
-Please check Fastbill-API Dokumentation to findout the structur for a request.
+<a href="http://www.fastbill.com">Fastbill</a> (Digital invoicing for services and products)<br>
+Please check <a href="http://www.fastbill.com/api/">Fastbill-API Dokumentation</a> to findout the structur for a request.
 
 
 
