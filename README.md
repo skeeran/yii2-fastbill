@@ -33,4 +33,12 @@ Configuring
 ]
 ```
 
+How to use ?
+============
+``` php
+
+$article = Yii::$app->fastbill->request(array("SERVICE" => "article.get"));
+
+```
+
 This extenion is under development
