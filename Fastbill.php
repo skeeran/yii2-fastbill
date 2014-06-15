@@ -4,7 +4,7 @@
  *  	Copyright: DIGITALSCHMIEDE				
  *  	http://www.digitalschmiede.de	
  *		
- *	Released for Yii 2.0 from
+ *	Released for Yii 2.0
  *      Nakkeeran Sathasivam			
  * 	http://www.sathadev.com
  * 				
