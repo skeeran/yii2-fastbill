@@ -46,3 +46,9 @@ $article = Yii::$app->fastbill->request(array("SERVICE" => "article.get"));
 ```
 
 This extenion is under development
+
+
+Source
+======
+<a href="https://github.com/Digitalschmiede/fastbill">Digitalschmiede/fastbill</a>
+
