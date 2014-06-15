@@ -17,15 +17,20 @@
         }
     ],
     "minimum-stability": "dev",
+    
     "require": {
         "yiisoft/yii2": "*",
     },
-    "require-dev": {
-        "yiisoft/yii2-codeception": "*",
-    },
+
     "autoload": {
         "psr-4": {
             "skeeran\\yii2-fastbill\\": ""
         }
     },
+    "repositories":[
+        {
+            "type": "git",
+            "url": "https://github.com/skeeran/yii2-fastbill"
+        }
+    ]
 }
