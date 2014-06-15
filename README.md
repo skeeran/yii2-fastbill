@@ -1,5 +1,6 @@
 Yii2 Fastbill
 ========
+<a href="http://www.fastbill.com">Fastbill</a> (Digital invoicing for services and products)
 
 
 Installation
