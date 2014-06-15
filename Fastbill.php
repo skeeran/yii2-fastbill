@@ -93,13 +93,13 @@ class Fastbill extends Component
             }
             else
             {
-                if($this->apiDebug == true) { return array("RESPONSE" => array("ERROR" => array("ApiID und/oder APIKey und/oder APIURL Fehlen!"))); }
+                if($this->apiDebug == true) { return array("RESPONSE" => array("ERROR" => array("ApiID and/or APIKey and/or APIURL missing!"))); }
                 else { return false; }
             }
         }
         else
         {
-            if($this->apiDebug == true) { return array("RESPONSE" => array("ERROR" => array("Übergabeparameter 1 ist leer!"))); }
+            if($this->apiDebug == true) { return array("RESPONSE" => array("ERROR" => array("something is missing!"))); }
             else { return false; }
         }
 	}
