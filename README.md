@@ -1,7 +1,9 @@
 Yii2 Fastbill
 ========
-This is a extension to communicate using Yii2 with Fastbill API
-
+This is a extension to communicate using Yii2 with Fastbill API <br>
+ Works for Api: https://my.fastbill.com/api/1.0/api.php<br>
+              : https://automatic.fastbill.com/api/1.0/api.php<br>
+ 
 <a href="http://www.fastbill.com">Fastbill</a> (Digital invoicing for services and products)<br>
 Please check <a href="http://www.fastbill.com/api/">Fastbill-API Dokumentation</a> to findout the structur for a request.
 
