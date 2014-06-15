@@ -16,7 +16,7 @@ The preferred way to install this extension is through composer.
 Either run
 
 ``` php
-php composer.phar require skeeran/fastbill "*"
+php composer.phar require skeeran/yii2-fastbill "*"
 ```
 
 Configuring
