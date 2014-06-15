@@ -48,7 +48,7 @@ $article = Yii::$app->fastbill->request(array("SERVICE" => "article.get"));
 
 ```
 
-Response: is an arry
+Response: is an array
 ``` php
 $article['RESPONSE']['ARTICLES'];
 ```
@@ -77,7 +77,7 @@ Array
             [SUBSCRIPTION_CANCELLATION] => 0
             [RETURN_URL_SUCCESS] => 
             [RETURN_URL_CANCEL] => 
-            [CHECKOUT_URL] => https://automatic.fastbill.com/purchase/8695c6da6cf436572f04535eb9aeaad9/1
+            [CHECKOUT_URL] => https://automatic.fastbill.com/purchase/.........
         )
 )
 ```
