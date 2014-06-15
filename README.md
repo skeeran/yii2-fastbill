@@ -1,6 +1,6 @@
 Yii2 Fastbill
 ========
-This is a Library communicate using PHP with Fastbill API
+This is a extension to communicate using Yii2 with Fastbill API
 
 <a href="http://www.fastbill.com">Fastbill</a> (Digital invoicing for services and products)<br>
 Please check <a href="http://www.fastbill.com/api/">Fastbill-API Dokumentation</a> to findout the structur for a request.
@@ -39,12 +39,48 @@ Configuring
 
 How to use ?
 ============
+
+Request:
 ``` php
+
 
 $article = Yii::$app->fastbill->request(array("SERVICE" => "article.get"));
 
 ```
 
+Response: is an arry
+``` php
+$article['RESPONSE']['ARTICLES'];
+```
+Array will look like this:
+
+``` php
+Array
+(
+    [0] => Array
+        (
+            [ARTICLE_NUMBER] => 1
+            [TITLE] => Free
+            [DESCRIPTION] => 
+            [TAGS] => 
+            [UNIT_PRICE] => 0.0000
+            [SETUP_FEE] => 0.0000
+            [ALLOW_MULTIPLE] => 0
+            [IS_ADDON] => 0
+            [CURRENCY_CODE] => EUR
+            [VAT_PERCENT] => 19.00
+            [SUBSCRIPTION_INTERVAL] => 1 month
+            [SUBSCRIPTION_NUMBER_EVENTS] => 0
+            [SUBSCRIPTION_TRIAL] => 0
+            [SUBSCRIPTION_DURATION] => 0
+            [SUBSCRIPTION_DURATION_FOLLOW] => 0
+            [SUBSCRIPTION_CANCELLATION] => 0
+            [RETURN_URL_SUCCESS] => 
+            [RETURN_URL_CANCEL] => 
+            [CHECKOUT_URL] => https://automatic.fastbill.com/purchase/8695c6da6cf436572f04535eb9aeaad9/1
+        )
+)
+```
 This extenion is under development
 
 
