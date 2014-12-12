@@ -4,11 +4,6 @@
     "keywords": ["yii2", "yii2-fastbill", "skeeran", "Sathadev"],
     "type": "yii2-extension",
     "license": "MIT",
-    "support": {
-        "issues": "https://github.com/skeeran/yii2-fastbill/issues?state=open",
-        "forum": "https://gitter.im/skeeran/yii2-fastbill",
-        "source": "https://github.com/skeeran/yii2-fastbill"
-    },
     "authors": [
         {
             "name": "Nakkeeran Sathasivam",
@@ -21,16 +16,9 @@
     "require": {
         "yiisoft/yii2": "*",
     },
-
     "autoload": {
         "psr-4": {
             "skeeran\\yii2-fastbill\\": ""
         }
     },
-    "repositories":[
-        {
-            "type": "git",
-            "url": "https://github.com/skeeran/yii2-fastbill"
-        }
-    ]
 }
